@@ -1,0 +1,22 @@
+public class Atividade2 {
+
+    public static void main(String[] args) {
+
+        int numero = 10;
+
+        System.out.println(+ numero); // Antes de chamar
+
+        alterarNumero(numero);
+
+        System.out.println( + numero); // Após chamar
+    }
+
+    public static void alterarNumero(int x) {
+
+        System.out.println( + x); // Antes de chamar
+
+        x = 20;
+
+        System.out.println( + x); // Após chamar
+    }
+}
