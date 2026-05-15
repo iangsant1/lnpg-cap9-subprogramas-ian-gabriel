@@ -13,3 +13,7 @@ Fiz um sistema pequeno de supermercado com alimentos, fiz primeiramente um siste
 Basicamente para que o programa fique mais seguro e não mude as variáveis por acidente, a passagem de valor acontece por meio de cópias das variáveis. Em java não é passado o valor original da variável, mas sim uma cópia. Explicando o porquê a variável não se modificou. O valor copiado foi 10, pois se copia o conteúdo da variável. Ainda que o conteúdo seja modificado, o valor da variável ainda fica alocado na memória sem mudar.
 
 ## Tarefa 4:
+Pegando base da útlima resposta (Tarefa 3), Java não possui passagem verdadeira, apenas passagem por valor. Em exemplos de variáveis primitivas o valor copiado é o próprio valor.
+  int x = 10;
+  // O valor copiado será 10
+As alterações no objeto permanecem após a chamada porque o objeto continua sendo o mesmo.
