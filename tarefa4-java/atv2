@@ -1,0 +1,31 @@
+public class Mudança {
+
+    static class Produto {
+
+        String nome;
+        double preco;
+    }
+
+    public static void aplicarDesconto(Produto p) {
+
+        System.out.println("Preço antes do desconto: " + p.preco);
+
+        p.preco = p.preco * 0.90;
+
+        System.out.println("Preço depois do desconto: " + p.preco);
+    }
+
+    public static void main(String[] args) {
+
+        Produto produto = new Produto();
+
+        produto.nome = "Notebook";
+        produto.preco = 3500.00;
+
+        System.out.println("Preço original: " + produto.preco);
+
+        aplicarDesconto(produto);
+
+        System.out.println("Preço final no main: " + produto.preco);
+    }
+}
